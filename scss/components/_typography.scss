@@ -44,5 +44,10 @@ p {
 
    & a {
       color: hsl(228, 45%, 44%);
+      transition: .5s;
+
+      &:hover {
+         color: $bright-yellow;
+      }
    }
 }

@@ -495,6 +495,10 @@ p {
 }
 .attribution a {
   color: #3e52a3;
+  transition: 0.5s;
+}
+.attribution a:hover {
+  color: #c0df34;
 }
 
 .content__list {
