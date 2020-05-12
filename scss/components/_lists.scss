@@ -1,0 +1,10 @@
+.content__list {
+
+   font-size: $font-s;
+   opacity: .75;
+
+   &-item+&-item {
+      margin-top: .5em;
+   }
+
+}

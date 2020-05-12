@@ -1,0 +1,32 @@
+.container {
+  width: min(100%, 640px);
+  margin: 0 auto;
+}
+
+.content {
+  padding: 2em 0;
+}
+
+.col {
+  padding: 0 2em;
+  width: 100%;
+}
+
+.card {
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+@include mq {
+  .main {
+    display: flex;
+    height: 100vh;
+  }
+
+
+
+  .row {
+    display: flex;
+  }
+}

@@ -1,0 +1,36 @@
+/*COLORS
+------------------*/
+$white: hsl(255, 100%, 100%);
+
+$cyan: hsl(179, 62%, 43%);
+$light-cyan: #4abebd;
+$bright-yellow: hsl(71, 73%, 54%);
+
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+/*TYPOGRAPHY
+------------------*/
+
+/*family*/
+$font-primary: 'Karla',
+sans-serif;
+
+/*weight*/
+$font-regular: 400;
+$font-bold: 700;
+
+/*font size*/
+/*
+   function
+   font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+
+   example
+   font-size: calc(14px + (26 - 14) * ((100vw - 375px) / (1600 - 375)));
+*/
+
+$font-xl: calc(35px + (36 - 32) * ((100vw - 375px) / (1440 - 375)));
+$font-l: calc(28px + (38 - 20) * ((100vw - 375px) / (1440 - 375)));
+$font-m: calc(16px + (18 - 16) * ((100vw - 375px) / (1440 - 375)));
+$font-s: calc(14px + (16 - 14) * ((100vw - 375px) / (1440 - 375)));
+$font-xs: calc(12px + (14 - 12) * ((100vw - 375px) / (1440 - 375)));

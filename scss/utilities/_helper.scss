@@ -1,0 +1,33 @@
+.hidden {
+   display: none;
+}
+
+.bg {
+
+   &--cyan,
+   &--light-cyan {
+      color: $light-gray;
+   }
+
+   &--cyan {
+      background-color: $cyan;
+   }
+
+   &--light-cyan {
+      background-color: $light-cyan;
+   }
+}
+
+.cyan {
+   color: $cyan;
+}
+
+@include mq {
+   .border-b-l-radius {
+      border-bottom-left-radius: 10px;
+   }
+
+   .border-b-r-radius {
+      border-bottom-right-radius: 10px;
+   }
+}

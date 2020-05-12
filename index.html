@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Join our community
 
-  30-day, hassle-free money back guarantee
+  <main class="main">
+    <div class="card container">
+      <div class="row">
+        <div class="col">
+          <section class="content">
+            <h2 class="content__title cyan">Join our community</h2>
+            <p class="content__sub-title">30-day, hassle-free money back guarantee</p>
+            <p class="content__paragraph">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+          </section>
+        </div>
+      </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+      <div class="row">
+        <div class="col bg--cyan border-b-l-radius">
+          <section class="content">
+            <h2 class="content__title">Monthly Subscription</h2>
+            <p class="content__price">&dollar;29 <span class="content__price-aux">per month</span></p>
+            <p>Full access for less than &dollar;1 a day</p>
+            <a href="#" class="btn" target="_blank">Sign Up</a>
+          </section>
+        </div>
+        <div class="col bg--light-cyan border-b-r-radius">
+          <section class="content">
+            <h2 class="content__title">Why Us</h2>
+            <ul class="content__list">
+              <li class="content__list-item">Tutorials by industry experts</li>
+              <li class="content__list-item">Peer &amp; expert code review</li>
+              <li class="content__list-item">Coding exercises</li>
+              <li class="content__list-item">Access to our GitHub repos</li>
+              <li class="content__list-item">Community forum</li>
+              <li class="content__list-item">Flashcard decks</li>
+              <li class="content__list-item">New videos every week</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
 
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Martin Ring</a>.
     </p>
   </footer>
 </body>
+
 </html>
